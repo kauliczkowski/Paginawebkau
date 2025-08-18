@@ -4,4 +4,7 @@ body {
 
 
 
-    }
+ }
+header{
+     border-bottom: solid 2px hwb(0 0% 100%);
+}
