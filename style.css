@@ -7,4 +7,21 @@ body {
  }
 header{
      border-bottom: solid 2px rgb(0, 0, 0);
+     padding: 20px;
+     font-size: 32px;
+     color: hsl(271, 76%, 53%);
+}
+section {
+     background: lab(73.37% 32.54 -22);
+     padding-bottom: 80px;
+     padding-top: 80px;
+     display: flex;
+     justify-content: center;
+}
+
+chamada-texto{
+     margin-right: 5%;
+}
+
+h1{font-size: 40px;
 }
