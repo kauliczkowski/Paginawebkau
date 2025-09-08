@@ -44,3 +44,12 @@ img {
      padding-left: 20px;
      padding-right: 20px;
 }
+.categoria-videos img{
+     opacity: 0,5;
+     height: 200px;
+     margin-top: 50px;
+}
+.categoria-videos img:hover{
+     opacity: 1.0;
+     bordeer:3px solid red;
+}
