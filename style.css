@@ -1,7 +1,8 @@
 body {
      color:rgb(27, 161, 150);
      background: rgb(3, 109, 112);
-
+     margin: opx;
+     font-family: Georgia, 'Times New Roman', Times, serif;
 
 
  }
@@ -11,7 +12,7 @@ header{
      font-size: 32px;
      color: hsl(271, 76%, 53%);
 }
-section {
+.chamada {
      background: lab(73.37% 32.54 -22);
      padding-bottom: 80px;
      padding-top: 80px;
@@ -19,9 +20,27 @@ section {
      justify-content: center;
 }
 
-chamada-texto{
+.chamada-texto{
      margin-right: 5%;
 }
 
 h1{font-size: 40px;
+
+}
+p{ font-size: 20px;
+
+}
+img {
+     height: 200px;
+
+}
+.categoria-videos {
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+
+}
+.categoria {
+     padding-left: 20px;
+     padding-right: 20px;
 }
